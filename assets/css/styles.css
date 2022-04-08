@@ -1,8 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #444444;
 }
 
@@ -12,7 +14,7 @@ a {
 }
 
 a:hover {
-    color: #51cdbe;
+    color: #cdc551;
     text-decoration: none;
 }
 
@@ -43,11 +45,11 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: #2d6760;
+    background: #886400b6;
 }
 
 #header.header-scrolled {
-    background: #1d443f;
+    background: #000000ea;
     height: 60px;
 }
 
@@ -299,6 +301,9 @@ h6 {
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
+
+
+
 #hero {
     width: 100%;
     height: 90vh;
@@ -317,6 +322,7 @@ h6 {
     left: 0;
     right: 0;
     opacity: 40%;
+
 }
 
 #hero .hero-container {
