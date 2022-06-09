@@ -403,8 +403,81 @@ h6 {
 }
 
 
+section #hello {
+    padding-top: 55px;
+    left: 18%;
+    bottom: 50%;
+    font-family: 'Josefin Sans';
+    font-size: 80px;
+}
 
+section #cutout {
+    margin-top: -100px;
+}
 
+section #youtubeButton {
+    background-color: red;
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 10%;
+    left: 50%;
+    position: absolute;
+
+    top: 50%;
+}
+
+section #aboutpara p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px;
+    color: whitesmoke;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    text-align: justify;
+    letter-spacing: .08em;
+}
+
+section #contactbtn {
+    background-color: rgba(255, 0, 0, 0.746);
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 25px;
+    color: whitesmoke;
+    border-radius: 10%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 992px) {
+    section #hello {
+        left: 32%;
+    }
+
+    section #aboutpara p {
+        font-size: 16px;
+        padding-bottom: 30px;
+        margin-top: -40px;
+    }
+
+    section #youtubeButton {
+        margin-left: -50px;
+        margin-bottom: 20px;
+    }
+
+    section #cutout {
+        margin-top: -80px;
+    }
+
+    section #contactbtn {
+        margin-left: -30px;
+    }
+}
 
 /*--------------------------------------------------------------
 # Portfolio
