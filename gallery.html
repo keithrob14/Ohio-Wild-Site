@@ -57,8 +57,10 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -67,40 +69,80 @@
     </header><!-- End #header -->
 
     <main>
-        <div class="row">
-            <div class="column">
-                <img src="assets/img/gallery/Hooper Ridge Pic.jpg">
-                <img src="assets/img/gallery/Shawnee Pics_13.JPG">
-                <img src="assets/img/gallery/Hooper Ridge Pic.jpg">
-                <img src="assets/img/gallery/Shawnee Pics_13.JPG">
-                <img src="assets/img/gallery/Hooper Ridge Pic.jpg">
-                <img src="assets/img/gallery/Shawnee Pics_13.JPG">
+
+
+        <div class="row d-flex flex-wrap align-items-center" id="gallery" data-toggle="modal" data-target="#lightbox">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/bird_beachPics.jpg" data-target="#indicators" data-slide-to="0" alt="" />
             </div>
-            <div class="column">
-                <img src="assets/img/gallery/Hooper Ridge Pic.jpg">
-                <img src="assets/img/gallery/Shawnee Pics_13.JPG">
-                <img src="assets/img/gallery/Hooper Ridge Pic.jpg">
-                <img src="assets/img/gallery/Shawnee Pics_13.JPG">
-                <img src="assets/img/gallery/Hooper Ridge Pic.jpg">
-                <img src="assets/img/gallery/Shawnee Pics_13.JPG">
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/buck_pics.jpg" data-target="#indicators" data-slide-to="0" alt="" />
             </div>
-            <div class="column">
-                <img src="wedding.jpg">
-                <img src="rocks.jpg">
-                <img src="falls2.jpg">
-                <img src="paris.jpg">
-                <img src="nature.jpg">
-                <img src="mist.jpg">
-                <img src="paris.jpg">
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend8.JPG" data-target="#indicators" data-slide-to="0" alt="" />
             </div>
-            <div class="column">
-                <img src="underwater.jpg">
-                <img src="ocean.jpg">
-                <img src="wedding.jpg">
-                <img src="mountainskies.jpg">
-                <img src="rocks.jpg">
-                <img src="underwater.jpg">
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/bird_beachPics_3.jpg" data-target="#indicators" data-slide-to="0" alt="" />
             </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/buck_pics_2.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/bird_beachPics_5.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/buck_pics_1.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend5.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/rocks.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend1.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/rocks_1.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/Hooper Ridge Pic.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend2.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend6.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/jonsBird.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/bird_beachPics_2.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/jonsBird_1.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend3.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/bird_beachPics_4.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend4.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/bird_beachPics_1.jpg" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/img/gallery/fullsend7.JPG" data-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+
+
         </div>
     </main>
 
